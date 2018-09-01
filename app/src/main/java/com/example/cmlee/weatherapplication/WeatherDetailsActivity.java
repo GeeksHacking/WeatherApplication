@@ -21,7 +21,8 @@ import java.util.List;
 
 public class WeatherDetailsActivity extends AppCompatActivity {
 
-    private static final String APPID = "b73a8ebfdd91898e037eee4a25386c4d";
+    //get it from openweathermap.org
+    private static final String APPID = "__YOUR_OPENWEATHERMAP_APPID__";
 
     private List<String> getWeather(String cityName) throws Exception {
 
